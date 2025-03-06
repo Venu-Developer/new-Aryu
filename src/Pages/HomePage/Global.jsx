@@ -9,19 +9,19 @@ function Global() {
           {/* Left Section */}
           <div className="mt-3 sm:mt-5 lg:mt-10 flex justify-center items-center">
             <div>
-              <p className="text-white font-semibold text-xl md:text-xl">
+              <p className="text-white font-[600] text-xl md:text-xl">
                 Global Scale
               </p>
 
               <p
-                className="text-2xl lg:text-4xl xxl:text-5xl font-bold leading-tight 
+                className="text-2xl lg:text-4xl xxl:text-5xl  leading-tight 
   bg-[linear-gradient(270deg,#FFFFFF,#B8E4FF)] 
-  bg-clip-text text-transparent mt-3 sm:mt-3 lg:mt-5 py-2"
+  bg-clip-text text-transparent mt-3 sm:mt-3 lg:mt-5 py-2 font-[500]"
               >
                 Companies across the globe leverage Aryu’s trusted registry
               </p>
 
-              <p className="text-[#C3CFFF]  text-lg lg:text-xl xxl:text-2xl font-semibold mt-3 sm:mt-5 lg:mt-10">
+              <p className="text-[#C3CFFF]  text-lg lg:text-xl xxl:text-2xl font-[400] mt-3 sm:mt-5 lg:mt-10">
                 Companies across the globe can leverage Aryu's trusted registry
                 of 1 billion+ identity tokens to supercharge identity
                 verification and authentication. Our global teams are here to

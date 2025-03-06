@@ -18,7 +18,7 @@ function ContactUs() {
               <div className="flex items-end">
                 {/* Text (40% width) */}
 
-                <p className="text-[#00619F] text-2xl lg:text-4xl  font-bold">
+                <p className="bg-contact-background bg-clip-text text-transparent p-2 text-2xl lg:text-4xl  font-[700]">
                   Let’s Work
                 </p>
                 <img
@@ -29,13 +29,13 @@ function ContactUs() {
               </div>
 
               {/* "Together" text without extra spacing */}
-              <p className="text-[#00619F] font-bold text-5xl lg:text-7xl">
+              <p className="bg-contact-background bg-clip-text text-transparent font-[700] text-5xl lg:text-7xl p-2">
                 Together
               </p>
             </div>
 
             {/* Paragraph text */}
-            <p className="text-[#00619F] text-lg sm:text-xl font-medium">
+            <p className="text-[#333333] text-lg sm:text-xl font-[500]">
               We offer full-cycle technology solutions that streamline your
               digital transformation journey. With leading-edge technical
               expertise, we simplify complex business challenges with innovative

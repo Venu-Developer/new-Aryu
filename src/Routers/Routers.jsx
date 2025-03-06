@@ -4,6 +4,7 @@ import Home from '../Components/Home'
 import About from '../Components/About'
 import ScrollToTop from "../Components/ScrollToTop";
 import Navbar from "../Components/Navbar";
+import WebDevelopment from '../Pages/Services/WebDevelopment'
 
 function Router() {
   return (
@@ -13,7 +14,7 @@ function Router() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/About" element={<About />} />
-        {/* <Route path="/Te" element={< />} /> */}
+        <Route path="/services/web-development" element={<WebDevelopment/>} />
        
       </Routes>
     </div>

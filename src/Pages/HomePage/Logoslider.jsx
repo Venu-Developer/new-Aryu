@@ -1,35 +1,29 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
-import img1 from '../../assets/Images/Homepage/LogoSlider/img1.png'
-import img2 from '../../assets/Images/Homepage/LogoSlider/img2.png'
+import img1 from '../../assets/Images/Homepage/LogoSlider/gadget mart.svg'
+import img2 from '../../assets/Images/Homepage/LogoSlider/biokomrtick of texas usa.svg'
+import img3 from '../../assets/Images/Homepage/LogoSlider/conversion.svg'
+import img4 from '../../assets/Images/Homepage/LogoSlider/skincare-usa.svg'
+import img5 from '../../assets/Images/Homepage/LogoSlider/Urbangrid.svg'
 function Logoslider() {
     const logoSlider=[
         {
-           img:img1,alt:"hello"
+           img:img1,alt:"gadget mart"
 
         },{
-            img:img2,alt:"hello"
+            img:img2,alt:" Logo of Biokosmetik of Texas USA, featuring elegant black uppercase text with a subtle blue underline. Listed under Our Clients by Aryu Technologies"
  
          },
          {
-            img:img1,alt:"hello"
+            img:img3,alt:" Logo of Conversion Media Group with CONVERSION in bold red text and MEDIA GROUP in smaller gray text, featuring a red and gray swoosh design. Listed under Our Clients by Aryu Technologies"
  
          },{
-             img:img2,alt:"hello"
+             img:img4,alt:"Skincare-USA Logo - Our Clients - Aryu Technologies"
   
           }, {
-            img:img1,alt:"hello"
+            img:img5,alt:"Urbangrid"
  
-         },{
-             img:img2,alt:"hello"
-  
-          }, {
-            img:img1,alt:"hello"
- 
-         },{
-             img:img2,alt:"hello"
-  
-          }
+         }
     ]
   return (
     <div className=' bg-black p-10'>

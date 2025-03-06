@@ -40,7 +40,7 @@ function Choose() {
     <div className="w-full px-4 py-10 overflow-hidden lg:mt-5">
       {/* Section Title */}
       <div className="text-center">
-        <h2 className="text-xl lg:text-4xl xxl:text-5xl font-bold bg-text-heading bg-clip-text text-transparent p-2">
+        <h2 className="text-xl lg:text-4xl xxl:text-5xl font-[700] bg-text-heading bg-clip-text text-transparent p-2">
           Why Choose Us?
         </h2>
         <p className="text-lg lg:text-2xl font-bold text-gray-600 mt-5">
@@ -68,8 +68,8 @@ function Choose() {
 
                 {/* Text Section */}
                 <div className="flex-1">
-                  <h2 className="text-xl lg:text-2xl xxl:text-3xl font-bold">{value.heading}</h2>
-                  <p className="text-[#585858] text-md lg:text-xl xxl:text-2xl font-semibold mt-5">
+                  <h2 className="text-lg  lg:text-xl xl:text-2xl xxl:text-3xl font-[700]">{value.heading}</h2>
+                  <p className="text-[#585858] text-md lg:text-xl xxl:text-2xl  mt-5 font-[500]">
                     {value.description}
                   </p>
                 </div>

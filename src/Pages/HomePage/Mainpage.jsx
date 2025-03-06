@@ -49,14 +49,14 @@ const Mainpage = () => {
 
       {/* Overlay Content */}
       <div className="absolute inset-0 flex flex-col justify-center items-start px-6 md:px-12 lg:px-24 text-white">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold max-w-2xl leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-[600] max-w-2xl leading-tight">
           {slides[currentIndex].heading}
         </h1>
-        <p className="mt-4 lg:mt-10 text-sm sm:text-lg md:text-xl xl:text-2xl font-bold max-w-2xl">
+        <p className="mt-4 lg:mt-10 text-sm sm:text-lg md:text-xl xl:text-2xl font-[400] max-w-2xl">
           {slides[currentIndex].description}
         </p>
-        <button className="mt-6 lg:mt-10 px-6 py-2 sm:px-8 sm:py-3 bg-white text-black transition-all duration-300 ease-in-out transform hover:scale-105 hover:brightness-110 hover:shadow-[0_0_15px_rgba(255,255,255,0.7)] rounded-lg text-sm sm:text-lg font-semibold shadow-md">
-  Learn More
+        <button className="mt-6 lg:mt-10 px-5 py-2 sm:px-5 sm:py-2 bg-[#FFFFFF] text-[#000000] font-[600]  transition-all duration-300 ease-in-out transform hover:scale-105 hover:brightness-110 hover:shadow-[0_0_15px_rgba(255,255,255,0.7)] rounded-lg text-sm sm:text-lg shadow-md">
+        Reach us
 </button>
 
 

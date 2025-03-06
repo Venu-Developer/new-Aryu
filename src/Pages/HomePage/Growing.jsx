@@ -58,35 +58,38 @@ function Growing() {
   }, []);
 
   return (
-    <div ref={sectionRef} className="w-full bg-custom-gradient y-5 md:py-10 mt-10 lg:mt-20">
+    <div
+      ref={sectionRef}
+      className="w-full bg-custom-gradient y-5  mt-10 lg:mt-20"
+    >
       <div className="flex justify-center">
         <div className="w-full lg:w-[80%]  grid sm:grid-cols-1 lg:grid-cols-2 gap-10 p-6 sm:p-10">
           {/* Left Section */}
           <div className="mt-3">
             <p
-              className="text-3xl md:text-4xl  font-bold leading-tight 
+              className="text-3xl md:text-4xl  font-[500] leading-tight 
   bg-[linear-gradient(270deg,#FFFFFF,#B8E4FF)] 
   bg-clip-text text-transparent md:p-1"
             >
-              We are growing fast,<br className="hidden sm:block" />
-              <span className="block mt-3">so should you</span>
+              We are growing fast,
+              <br className="hidden sm:block" />
+              <span className="block mt-2">so should you</span>
             </p>
 
-            <div className="mt-0 md:mt-10">
-              <p className="text-[#FFFFFF]  mt-4 text-lg sm:text-xl font-semibold">
+            <div className="mt-0 md:mt-5">
+              <p className="text-[#FFFFFF]  mt-4 text-lg xxl:text-xl font-[400]">
                 Because we believe in{" "}
-                <span className="font-semibold">#GrowingTogether and</span><br/>
-                <span className="font-semibold">#KeepRaisingTheBar</span>
+                <span className="font-[400]">#GrowingTogether and</span>
+                <br />
+                <span className="font-[400]">#KeepRaisingTheBar</span>
               </p>
-              
             </div>
 
             <div className="mt-8">
-              <button className="bg-white text-blue-900 px-6 py-3 font-semibold rounded-full hover:transition  flex items-center justify-center">
-                Get in Touch
+              <button className=" text-white px-6 py-3 border rounded-md hover:transition  flex items-center justify-center font-[400]">
+              Get in Touch
                 <MdArrowOutward className="ml-2 text-xl" />
               </button>
-              
             </div>
           </div>
 
@@ -98,7 +101,7 @@ function Growing() {
               { value: 15, text: "Professional Team Members" },
               { value: 500, text: "Fortune companies put trust in check" },
             ].map((item, index) => (
-              <div key={index} className="border-t-2 border-[#00B5FF] p-4">
+              <div key={index} className="border rounded-md border-[#00B5FF] p-4 backdrop-blur-md bg-white/9">
                 <Counter value={item.value} isVisible={isVisible} />
                 <div className="flex items-center mt-2">
                   <div className="w-[80%]">
