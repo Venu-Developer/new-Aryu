@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import home1 from "../../assets/Images/Homepage/Futuristic Digital Transformation with Neon Cubes.svg";
 import home2 from "../../assets/Images/Homepage/VR and Software Development Solutions.svg";
 import home3 from "../../assets/Images/Homepage/Futuristic Cloud Computing and Digital Data Integration.svg";
+import Logoslider from "./Logoslider";
 
 const slides = [
   {
@@ -38,6 +39,8 @@ const Mainpage = () => {
 
   return (
     <div className="relative w-full h-screen overflow-hidden flex items-center justify-center ">
+<div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from-70% to-black"></div>
+      
       {/* Background Slideshow (Without Opacity Transition) */}
       <div className="absolute inset-0 w-full h-full flex items-center justify-center">
         <img
@@ -62,6 +65,8 @@ const Mainpage = () => {
 
 
       </div>
+      <div className="absolute bottom-0 "><Logoslider/></div>
+      
     </div>
   );
 };

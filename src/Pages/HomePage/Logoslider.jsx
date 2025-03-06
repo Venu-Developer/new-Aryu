@@ -26,7 +26,7 @@ function Logoslider() {
          }
     ]
   return (
-    <div className=' bg-black p-10'>
+    <div className='  p-10' >
         <Marquee
               className="flex justify-between gap-10 [--duration:5s]"
               speed={30}

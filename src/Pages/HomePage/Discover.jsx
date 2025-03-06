@@ -65,7 +65,7 @@ function Discover() {
     <div className="w-full mt-10">
       {/* GIF Section */}
       <div className="flex justify-center">
-        <img src={gif} alt="Aryu Technologies Robot" className="w-30 lg:w-40 xl:w-50" />
+        <img src={gif} alt="Aryu Technologies Robot" className="w-20 lg:w-40 xl:w-50" />
       </div>
 
       {/* Intro Section */}

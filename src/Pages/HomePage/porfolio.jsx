@@ -38,7 +38,7 @@ const RollingGallery = ({ autoplay = false, pauseOnHover = false }) => {
     controls.start({
       rotateY: [startAngle, startAngle - 360],
       transition: {
-        duration: 20,
+        duration: 30,
         ease: "linear",
         repeat: Infinity,
       },
